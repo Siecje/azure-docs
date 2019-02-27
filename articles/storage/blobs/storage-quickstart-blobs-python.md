@@ -108,9 +108,9 @@ The sample code creates a local file to be used for the upload and download, sto
 
 ```python
 # Create a file in Documents to test the upload and download.
-local_path=os.path.expanduser("~\Documents")
-local_file_name ="QuickStart_" + str(uuid.uuid4()) + ".txt"
-full_path_to_file =os.path.join(local_path, local_file_name)
+local_path = os.path.expanduser("~\Documents")
+local_file_name = "QuickStart_" + str(uuid.uuid4()) + ".txt"
+full_path_to_file = os.path.join(local_path, local_file_name)
 
 # Write text to the file.
 file = open(full_path_to_file,  'w')
